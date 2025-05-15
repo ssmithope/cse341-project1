@@ -6,8 +6,8 @@ const app = express();
 const port = process.env.PORT || 10000;
 
 app.use('/', require('./routes'));
-//app.use('/contacts', require('./routes/contacts'));
-
+app.use('/contacts', require('./routes/contacts'));
+app.use('/users', require('./routes/users'));
 
 
 mongodb.initDb((err) => {
