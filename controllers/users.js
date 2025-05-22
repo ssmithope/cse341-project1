@@ -24,11 +24,9 @@ const createUser = async (req, res) => {
     //#swagger.tags = ['Users']
     const userId = new ObjectId(req.params.id);
     const user = {
-        firstName: req.body.firstName,
-        lastName: req.body.lastName,
+        name: req.body.firstName,
         email: req.body.email,
-        favoriteColor: req.body.favoritecolor,
-        birthday: req.body.birthday
+        password: req.body.password
     };
     const response = await mongodb.getDatabase().db().collection('users').insertOne(user);
     if (response.acknowledged) {
