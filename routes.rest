@@ -1,0 +1,40 @@
+### API Documentation for Contact Management System
+### BASE URL    
+### http://localhost:10000/contacts
+### https://cse341-project1-1-test.onrender.com/contacts    
+### This API allows you to manage contacts, including creating, reading, updating, and deleting contacts.
+### API Endpoints
+
+### Localhost
+### Get all contacts
+GET https://cse341-project1-1-test.onrender.com/contacts
+
+
+### Get contact by ID
+GET https://cse341-project1-1-test.onrender.com/6826c2087594b7467563268a
+
+
+### Create a new contact
+POST http://localhost:10000/contacts
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": " "
+    "phone": "123-456-7890"
+}
+
+
+### Update a contact
+PUT http://localhost:10000/contacts/1
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "
+    "phone": "987-654-3210"
+}
+
+
+### Delete a contact
+DELETE http://localhost:10000/contacts/1
