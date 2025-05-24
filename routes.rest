@@ -2,8 +2,7 @@
 ### BASE URL    
 ### http://localhost:10000/contacts
 ### https://cse341-project1-1-test.onrender.com/contacts    
-### This API allows you to manage contacts, including creating, reading, updating, and deleting contacts.
-### API Endpoints
+
 
 ### Get all users
 GET http://localhost:10000/users
@@ -21,21 +20,21 @@ Content-Type: application/json
   "firstName": "Ned Stark",
   "lastName": "Sean",
   "email": "sean_bean@gameofthron.es",
-  "favoriteColor": "req.body.password",
-  "birthday": "09-18/2000"
+  "favoriteColor": "Red",
+  "birthday": "2000-09-18"
 }
 
 
 ### Update a contact
-PUT http://localhost:10000/users/68322097443a1fdd341ff382
+PUT http://localhost:10000/users/1
 Content-Type: application/json
 
 {
   "firstName": "Jane",
   "lastName": "Doe",
   "email": "jane.doe@example.com",
-  "favoriteColor":,
-  "birthday":
+  "favoriteColor": "Blue",
+  "birthday": "1999-01-13"
 }
 
 
