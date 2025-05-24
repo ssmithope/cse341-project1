@@ -8,7 +8,7 @@
   "host": "cse341-project1-62aw.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
@@ -60,7 +60,7 @@
                 "email": {
                   "example": "any"
                 },
-                "favoritecolor": {
+                "favoriteColor": {
                   "example": "any"
                 },
                 "birthday": {

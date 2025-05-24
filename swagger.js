@@ -6,7 +6,8 @@ const doc = {
         title: 'users API',
         description: 'Users API'
     },
-    host: 'localhost:10000',
-    schemes:  [ 'http', 'https'],
+    host: 'cse341-project1-62aw.onrender.com',
+    schemes: ['https'],
+
 };
 swaggerAutogen(outputFile, endpointsFiles, doc)
